@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowRight, Users, Award, Globe, Heart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -142,14 +141,10 @@ const Index = () => {
               Professional consultation, language training, and comprehensive support for students aspiring to study and work in Japan. Join 500+ successful graduates who achieved their dreams with our expert guidance.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
+            <div className="flex justify-center animate-fade-in">
               <Button size="lg" className="bg-white text-blue-900 hover:bg-gray-100 transition-all hover:scale-105 shadow-lg">
                 <Phone className="mr-2 h-5 w-5" />
                 Call Now: +977-9765220766
-              </Button>
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-blue-900 transition-all hover:scale-105 shadow-lg">
-                <Mail className="mr-2 h-5 w-5" />
-                Get Free Consultation
               </Button>
             </div>
           </div>
