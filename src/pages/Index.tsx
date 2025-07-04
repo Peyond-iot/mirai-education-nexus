@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowRight, Users, Award, Globe, Heart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -53,13 +52,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">M</span>
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">Mirai Education Center</h1>
-                <p className="text-sm text-gray-600">Pvt. Ltd.</p>
-              </div>
+              <img 
+                src="/lovable-uploads/6bf7752a-b647-4c92-9ba9-7a53124aaa68.png" 
+                alt="Mirai Education Center Logo" 
+                className="h-10 w-auto"
+              />
             </div>
             
             {/* Desktop Navigation */}
@@ -330,13 +327,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold">M</span>
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold">Mirai Education Center</h4>
-                  <p className="text-gray-400 text-sm">Pvt. Ltd.</p>
-                </div>
+                <img 
+                  src="/lovable-uploads/6bf7752a-b647-4c92-9ba9-7a53124aaa68.png" 
+                  alt="Mirai Education Center Logo" 
+                  className="h-10 w-auto"
+                />
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
                 Your trusted partner for Japanese education and career opportunities. Located in Putalisadak, Kathmandu, we've been guiding students to success since 2081.
