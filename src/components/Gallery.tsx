@@ -15,49 +15,48 @@ const Gallery = () => {
     { id: 'events', label: 'Events & Achievements' }
   ];
 
-  // Using placeholder images from Unsplash
   const images = [
     {
       id: 1,
-      category: 'students',
-      src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop',
-      alt: 'Student studying with laptop',
-      title: 'Dedicated Students'
+      category: 'events',
+      src: '/lovable-uploads/3d045eda-d1e5-420f-bec5-f162871ccc8c.png',
+      alt: 'Mirai Education Center football team',
+      title: 'Sports Team Achievement'
     },
     {
       id: 2,
-      category: 'students',
-      src: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop',
-      alt: 'Student preparing for Japan',
-      title: 'Preparing for Japan'
+      category: 'interior',
+      src: '/lovable-uploads/5779f16f-170e-4fac-a748-7a0c731f3cf9.png',
+      alt: 'Office interior with certificates and Japanese decorations',
+      title: 'Our Office Interior'
     },
     {
       id: 3,
-      category: 'interior',
-      src: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=400&h=300&fit=crop',
-      alt: 'Modern office interior',
-      title: 'Our Modern Office'
+      category: 'students',
+      src: '/lovable-uploads/dd87d81a-b947-4976-97e0-99e7a4521060.png',
+      alt: 'Students gathering at Mirai Education Center',
+      title: 'Student Community'
     },
     {
       id: 4,
-      category: 'interior',
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop',
-      alt: 'Office workspace',
-      title: 'Consultation Room'
+      category: 'students',
+      src: '/lovable-uploads/8747975b-a098-4579-bed0-cb4c45566e64.png',
+      alt: 'Group of students at celebration event',
+      title: 'Student Celebration'
     },
     {
       id: 5,
       category: 'events',
-      src: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=400&h=300&fit=crop',
-      alt: 'Graduation ceremony',
-      title: 'Success Celebration'
+      src: '/lovable-uploads/09f71782-e7bf-421e-8196-8bf05a334c0d.png',
+      alt: 'Trophy winners from Mirai Education Center',
+      title: 'Championship Winners'
     },
     {
       id: 6,
-      category: 'events',
-      src: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop',
-      alt: 'Achievement ceremony',
-      title: 'Achievement Awards'
+      category: 'students',
+      src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop',
+      alt: 'Student studying with laptop',
+      title: 'Dedicated Students'
     }
   ];
 
