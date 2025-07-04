@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, ArrowRight, Users, Award, Globe, Heart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -57,6 +58,10 @@ const Index = () => {
                 alt="Mirai Education Center Logo" 
                 className="h-10 w-auto"
               />
+              <div>
+                <h1 className="text-xl font-bold text-gray-900">Mirai Education Center</h1>
+                <p className="text-sm text-gray-600">Pvt. Ltd.</p>
+              </div>
             </div>
             
             {/* Desktop Navigation */}
